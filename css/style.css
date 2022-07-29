@@ -7,7 +7,71 @@
 .all-carousel{
     background-image: url(../images/cover/cover-1.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     padding: 100px 0;
 }
+@media only screen and (max-width: 688px) {
+    .carousel-item p{
+        width: 75% !important;
+    }
+    .cours-head p{
+        width: 100% !important;
+    }
+    .blog-left-sec-part{
+        padding: 20px 0 20px 20px;
+    }
+    .institute-right{
+        padding: 25px 0px 25px 20px;
+    }
+    .all-join{
+        flex-direction: column !important;
+    }
+    .join-left{
+        margin: 0 auto;
+    }
+    .join-left h2, .join-left p, .student-head{
+        text-align: center;
+    }
+    .student-head p{
+        width: 100% !important;
+    }
+    .feed-head h2 span{
+        display: block;
+    }
+    .feed-head p{
+        width: 100% !important;
+    }
+    .question-head p{
+        width: 100% !important;
+    }
+    #full-company{
+        display: none !important;
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .carousel-item p{
+        width: 75% !important;
+    }
+    #full-company{
+        display: none !important;
+    }
+    .cours-head p{
+        width: 100% !important;
+    }
+    .institute-right{
+        padding: 25px 0px 25px 20px;
+    }
+    .all-join{
+        flex-direction: column !important;
+    }
+    .student-head p{
+        width: 75% !important;
+    }
+    .feed-head p{
+        width: 100% !important;
+    }
+    .question-head p{
+        width: 100% !important;
+    }
+}
+@media only screen and (min-width: 993px) and (max-width: 1400px) {}
